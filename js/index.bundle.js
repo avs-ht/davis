@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementsByClassName("header__burger")[0],s=document.getElementsByClassName("header__mobile-down-part")[0];let t=!1;e.addEventListener("click",(()=>{if(!t)return e.classList.add("active"),s.classList.add("opened"),void(t=!0);e.classList.remove("active"),s.classList.remove("opened"),t=!1}))})();
